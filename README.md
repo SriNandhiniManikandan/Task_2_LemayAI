@@ -26,14 +26,10 @@ Given the hardware constraints of my system and the large model size of alternat
 - *Solution: Settled on **Flan-T5-Large, which offered a **lighter* model with acceptable performance, allowing efficient inference within available resources.
 
 ## *Project Structure*
-LLM project/
-
-│
-
-├── app/
-
-│ ├── init.py # Initializes model loader singleton and app context
-
+LLM project/  
+│  
+├── app/  
+│ ├── init.py # Initializes model loader singleton and app context  
 
 │ ├── model_loader.py # Loads and caches the HuggingFace model & tokenizer
 │ ├── main.py # FastAPI app entrypoint, Gunicorn/Uvicorn setup, logging init
