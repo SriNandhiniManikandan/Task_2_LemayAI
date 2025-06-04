@@ -1,0 +1,36 @@
+2025-05-31 17:56:28,941 [INFO] logs.logging_config: Logging is configured.
+2025-05-31 17:56:28,941 [INFO] app.main: Starting FastAPI application...
+2025-05-31 17:59:06,284 [INFO] app.api.endpoints: Received request with prompt: Translate to French: What is your name?
+2025-05-31 17:59:06,675 [INFO] app.api.endpoints: Successfully generated response.
+2025-05-31 17:59:48,868 [INFO] app.api.endpoints: Received request with prompt: how good is this world?
+2025-05-31 17:59:48,970 [INFO] app.api.endpoints: Successfully generated response.
+2025-05-31 18:01:01,245 [INFO] app.api.endpoints: Received request with prompt: Tell me a joke
+2025-05-31 18:01:01,812 [INFO] app.api.endpoints: Successfully generated response.
+2025-05-31 18:03:29,750 [INFO] app.api.endpoints: Received request with prompt: Who is Einstein?
+2025-05-31 18:03:30,024 [INFO] app.api.endpoints: Successfully generated response.
+2025-05-31 18:11:00,105 [INFO] logs.logging_config: Logging is configured.
+2025-05-31 18:11:00,105 [INFO] app.main: Starting FastAPI application...
+2025-05-31 18:13:28,487 [INFO] app.api.endpoints: Received request with prompt: Which continent is India in?
+2025-05-31 18:13:28,835 [INFO] app.api.endpoints: Successfully generated response.
+2025-06-02 11:12:48,719 [INFO] logs.logging_config: Logging is configured.
+2025-06-02 11:12:48,720 [INFO] app.main: Starting FastAPI application...
+2025-06-02 16:50:10,932 [INFO] logs.logging_config: Logging is configured.
+2025-06-02 16:50:10,934 [INFO] app.main: Starting FastAPI application...
+2025-06-02 16:50:43,533 [INFO] app.api.endpoints: Received request with prompt: What is the capital of France?
+2025-06-02 16:50:48,966 [INFO] app.api.endpoints: Successfully generated response.
+2025-06-02 16:51:10,576 [INFO] app.api.endpoints: Received request with prompt: What is the capital of France?
+2025-06-02 16:51:12,242 [INFO] app.api.endpoints: Successfully generated response.
+2025-06-02 16:51:24,067 [INFO] app.api.endpoints: Received request with prompt: What is the capital of Japan?
+2025-06-02 16:51:25,426 [INFO] app.api.endpoints: Successfully generated response.
+2025-06-02 17:34:03,578 [INFO] logs.logging_config: Logging is configured.
+2025-06-02 17:34:03,580 [INFO] app.main: Starting FastAPI application...
+2025-06-02 17:34:10,787 [INFO] app.api.endpoints: Received request with prompt: What is the capital of Japan?
+2025-06-02 17:34:19,605 [INFO] app.api.endpoints: Successfully generated response.
+2025-06-02 17:34:24,810 [INFO] app.api.endpoints: Received request with prompt: What is the capital of Japan?
+2025-06-02 17:34:27,602 [INFO] app.api.endpoints: Successfully generated response.
+2025-06-02 17:34:30,938 [INFO] app.api.endpoints: Received request with prompt: What is the capital of Japan?
+2025-06-02 17:34:32,942 [INFO] app.api.endpoints: Successfully generated response.
+2025-06-02 18:24:04,795 [INFO] logs.logging_config: Logging is configured.
+2025-06-02 18:24:04,796 [INFO] app.main: Starting FastAPI application...
+2025-06-02 18:24:13,933 [INFO] app.api.endpoints: Received request with prompt: What is the capital of Japan?
+2025-06-02 18:24:20,153 [INFO] app.api.endpoints: Successfully generated response.
