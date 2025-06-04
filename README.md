@@ -30,24 +30,23 @@ LLM project/
 │  
 ├── app/  
 │ ├── init.py # Initializes model loader singleton and app context  
-
-│ ├── model_loader.py # Loads and caches the HuggingFace model & tokenizer
-│ ├── main.py # FastAPI app entrypoint, Gunicorn/Uvicorn setup, logging init
-│ ├── askSri/ # API route folder (renamed from 'api' for clarity)
-│ │ ├── init.py # API router setup
-│ │ └── endpoints.py # Defines API endpoints like /askSri/generate
-│
-├── logs/ # Folder for logging configuration and log files
-│ └── logging_config.py # Logging setup (formats, handlers, levels)
-│
-├── venv/ # Python virtual environment (ignored in Git)
-│
-├── nginx.conf # NGINX reverse proxy configuration file
-├── Dockerfile # Multi-stage Dockerfile to build and run app container
-├── docker-compose.yml # Docker Compose to orchestrate app + nginx containers
-├── requirements.txt # Python dependencies list
-├── README.md # Project documentation, overview, and instructions
-└── .gitignore # To ignore files/folders like venv, pycache, logs, etc.
+│ ├── model_loader.py # Loads and caches the HuggingFace model & tokenizer  
+│ ├── main.py # FastAPI app entrypoint, Gunicorn/Uvicorn setup, logging init  
+│ ├── askSri/ # API route folder (renamed from 'api' for clarity)  
+│ │ ├── init.py # API router setup  
+│ │ └── endpoints.py # Defines API endpoints like /askSri/generate  
+│  
+├── logs/ # Folder for logging configuration and log files  
+│ └── logging_config.py # Logging setup (formats, handlers, levels)  
+│  
+├── venv/ # Python virtual environment (ignored in Git)  
+│  
+├── nginx.conf # NGINX reverse proxy configuration file  
+├── Dockerfile # Multi-stage Dockerfile to build and run app container  
+├── docker-compose.yml # Docker Compose to orchestrate app + nginx containers  
+├── requirements.txt # Python dependencies list  
+├── README.md # Project documentation, overview, and instructions  
+└── .gitignore # To ignore files/folders like venv, pycache, logs, etc.  
 
 
 ## *How It Works*
