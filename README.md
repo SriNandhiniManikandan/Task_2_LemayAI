@@ -28,12 +28,9 @@ Given the hardware constraints of my system and the large model size of alternat
 ## *Project Structure*
 LLM project/
 
-
 │
 
-
 ├── app/
-
 
 │ ├── init.py # Initializes model loader singleton and app context
 
